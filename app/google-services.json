@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5615387418",
+    "project_id": "herbify-198d2",
+    "storage_bucket": "herbify-198d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5615387418:android:7e9a647fb5dcc63e7da2a3",
+        "android_client_info": {
+          "package_name": "com.e.herbify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm0xcys961JTlrDsRC47lEhECZx3pUFjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

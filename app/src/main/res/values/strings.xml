@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Herbify</string>
+    <string name="default_web_client_id">5615387418-jp3r6be1m8j4k4u0q7lotpl55r3guv4f.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

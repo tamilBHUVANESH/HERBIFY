@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".fragments.CreateAccountFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="78dp"
+        android:text="Login"
+        android:textColor="@color/colorFontGreen"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/text_box"
+            android:padding="16dp"
+
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/text_box"
+            android:padding="16dp"
+            android:hint="Password"/>
+
+        <TextView
+            android:id="@+id/forgotTV"
+            android:text="Forgot Password?"
+            android:textColor="@color/colorFontGreen"
+            android:textStyle="bold"
+            android:textSize="16dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/ll1"
+        android:layout_above="@+id/loginBtn"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+
+        android:background="@drawable/btn_bg"
+
+        android:text="Login"
+        android:textColor="#fff"
+        android:layout_above="@+id/googleSignInBtn"
+        android:layout_marginBottom="18dp"
+
+        android:id="@+id/loginBtn"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+
+        android:background="@drawable/btn_bg"
+
+        android:text="Sign in With Google"
+        android:textColor="#fff"
+        android:layout_above="@+id/signUpTV"
+        android:layout_marginBottom="18dp"
+
+        android:id="@+id/googleSignInBtn"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signUpTV"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dp"
+        android:text="Create Account , Sign Up"
+        android:textStyle="bold"
+        android:textColor="@color/colorFontGreen"/>
+
+
+
+
+</RelativeLayout>
